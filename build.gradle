@@ -10,9 +10,9 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    compile 'io.vertx:vertx-web:3.8.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile 'io.vertx:vertx-core:3.8.2'
+    compile 'io.vertx:vertx-web:3.8.1'
 }
 
 compileKotlin {
